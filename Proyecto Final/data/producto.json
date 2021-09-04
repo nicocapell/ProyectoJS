@@ -1,0 +1,10 @@
+[{"id":1,"nombre":"Buzo Verde","precio":1500,"categoria":"Buzos","cantidad":1,"imagen":"../assets/img/header4.jpg"},
+{"id":2,"nombre":"Buzo Nike","precio":1630,"categoria":"Buzos","cantidad":1,"imagen":"../assets/img/header6.jpg"},
+{"id":3,"nombre":"Pantalon de vestir","precio":2105,"categoria":"Pantalones","cantidad":1,"imagen":"../assets/img/p7.jpg"},
+{"id":4,"nombre":"Remera Idols","precio":1900,"categoria":"Remeras","cantidad":1,"imagen":"../assets/img/p11.jpg"},
+{"id":5,"nombre":"Camisa","precio":900,"categoria":"Camisas","cantidad":1,"imagen":"../assets/img/header3.jpg"},
+{"id":6,"nombre":"Camisa Cuadros","precio":2275,"categoria":"Camisas","cantidad":1,"imagen":"../assets/img/product5.jpg"},
+{"id":7,"nombre":"Pantalon","precio":2500,"categoria":"Pantalones","cantidad":1,"imagen": "../assets/img/product4.jpg"},
+{"id":8,"nombre":"Remera Normal Day","precio":1800,"categoria":"Remeras","cantidad":1,"imagen":"../assets/img/p10.jpg"}]
+
+

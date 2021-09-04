@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords"  content="ROPA, FERIA AMERICANA, HOMBRE, MUJER, CAMISAS, PANTALONES,SWETERS,VINTAGE, REMERAS">
+	<meta name="description" content="Melozzy, feria americana. Registrate y recibi nuestras novedades.">
+	<title>Mi Cuenta</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../css/estilo.css">
+	
+</head>
+<body >
+<div class="grilla">
+	<header>
+		<div >
+            <img src="../assets/img/logo.jpg" alt="logo" alt="logo"  width="100px" height="100px">
+        </div>
+	</header>
+    <header>
+		<nav class="navbar fixed-top navbar-expand-md navbar-light scrolling-navbar">
+            <a class="navbar-brand" href="#"> <img src="../assets/img/logo.jpg" alt="logo" width="100px" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Sticky-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Sticky-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                        <ul class="tamanio-1 categoriasFilter " aria-labelledby="navbarDropdown">
+                            <div>
+                                <div>
+                                    <select class="selectNav" id="filtroCategorias"></select>
+                                </div>
+                            </div>
+                        </ul>
+                        <li><a class="nav-link" href="../pages/contacto.html">Mi Cuenta</a></li>
+                        </li>
+                </ul>
+                <div class="toggle-btn">
+                    <a href="../pages/productos.html">  <img src="../assets/img/iconCarrito.png" alt="iconCarrito" width="40px" height="40px"></a>
+                </div>
+            </div>
+
+        </nav>
+	</header>
+
+
+	<div class="content">
+		<div id="sidebar">
+			<ul>
+				<img src="../assets/img/logo.jpg" alt="logo" class="logo" width="150px" height="150px">
+			</ul>
+			<section>
+				<h1 class="boldmiCarrito">MI CARRITO</h1>
+			</section>
+			<table class="table">
+				<thead>
+				<tr>
+					<th scope="col">Productos</th>
+					<th scope="col">Precio</th>
+					<th scope="col">Cantidad</th>
+					<th scope="col">Subtotal</th>
+				</tr>
+				</thead>
+			</table>
+			<div>
+				<div id="carritoProductos">
+				<!--ACA SE GENERAN LOS ELEMENTOS DEL CARRITO-->
+				</div>
+				
+			</div>
+			<div id="notificaciones" data-aos="fade-right"></div>
+		
+		</div>
+		
+		</div>
+
+
+<div class="grillaCuenta">
+	<section class="form-register" data-aos="fade-right">
+		<h4>Registro</h4>
+		<input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+		<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+		<input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+		<input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+		<p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+		<input class="botons" type="submit" value="Registrar">
+		<p><a href="#">¿Ya tengo Cuenta?</a></p>
+	</section>
+	
+
+<div class="imgCuenta border"  data-aos="fade-left">
+	<img src="../assets/img/imgCuenta.jpg" alt="paletaColores">
+</div>
+</div>
+
+<footer class="container-fluid">
+	<div class="row bg--footer">
+		<div class="col-lg-4 col-xs-12">
+			<img src="../assets/img/logo.jpg" alt="logoFooter" class="logo--footer__ubicacion" width="300px" height="300px">
+		</div>
+		<div class="col-lg-4 col-xs-12 modificacionMovile">
+			<h3>REDES SOCIALES</h3>
+			<a href="#"><img src="../assets/img/iconFace.png" alt="logoFace" class="bloque" width="20px" height="20px"></a>
+			<a href="#"><img src="../assets/img/iconInsta.png" alt="logoInsta" class="bloque" width="20px" height="20px"></a>
+
+		</div>
+		<div class="col-lg-4 col-xs-12 modificacionMovile">
+			<h3>CONTACTO</h3>
+			<div>
+			<img src="../assets/img/iconMail.png" alt="iconoEmail" class="bloque" width="20px" height="20px"><span>melozzyferia@gmail.com</span></div>
+			<img src="../assets/img/iconoMaoa.png" alt="iconoMapa" class="bloque" width="20px" height="20px"><span>Rondeau 548 - Córdoba Capital</span>
+		</div>
+	</div>
+	
+	<div class="row rowSinMargin">
+		<div class="col-lg-12 col-xs-12 bg--copy">
+			<p>Powered by: <a href="#">Capell</a></p>
+		</div>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+
+</body>
+</html>

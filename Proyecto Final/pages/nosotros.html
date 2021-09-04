@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords"  content="ROPA, FERIA AMERICANA, HOMBRE, MUJER, CAMISAS, PANTALONES,SWETERS,VINTAGE, REMERAS">
+	<meta name="description" content="¿Quienes somos?">
+	<title>Nosotros</title>
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+<body>
+    <header>
+		<nav class="navbar fixed-top navbar-expand-md navbar-light scrolling-navbar">
+            <a class="navbar-brand" href="#"> <img src="../assets/img/logo.jpg" alt="logo" width="100px" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Sticky-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Sticky-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../pages/nosotros.html" class="nav-link">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                        </a>
+                        <ul class="tamanio-1 categoriasFilter " aria-labelledby="navbarDropdown">
+                            <div>
+                                <div>
+                                    <select class="selectNav" id="filtroCategorias"></select>
+                                </div>
+                            </div>
+                        </ul>
+                        <li><a class="nav-link" href="../pages/contacto.html">Mi Cuenta</a></li>
+                        </li>
+                </ul>
+                <div class="toggle-btn">
+                    <a href="../pages/productos.html">  <img src="../assets/img/iconCarrito.png" alt="iconCarrito" width="40px" height="40px"></a>
+                </div>
+            </div>
+
+        </nav>
+	</header>
+
+
+	<div class="content">
+		<div id="sidebar">
+			<ul>
+				<img src="../assets/img/logo.jpg" alt="logo" class="logo" width="150px" height="150px">
+			</ul>
+			<section>
+				<h1 class="boldmiCarrito">MI CARRITO</h1>
+			</section>
+			<table class="table">
+				<thead>
+				<tr>
+					<th scope="col">Productos</th>
+					<th scope="col">Precio</th>
+					<th scope="col">Cantidad</th>
+					<th scope="col">Subtotal</th>
+				</tr>
+				</thead>
+			</table>
+			<div>
+				<div id="carritoProductos">
+				<!--ACA SE GENERAN LOS ELEMENTOS DEL CARRITO-->
+				</div>
+				
+			</div>
+			<div id="notificaciones" data-aos="fade-right"></div>
+		
+		</div>
+		
+		</div>
+	
+	<div class="margin--movil">
+		
+		<div data-aos="zoom-in" class="backColor">
+			<img src="../assets/img/logo.jpg" alt="logoNosotros" width="400px" height="400px"  class="nosotros__logo">
+		</div>
+		<div class="nosotros--texto__margin" data-aos="fade-left">
+			<h1 data-aos="fade-rigth" class="tamanio-2">¿Quienes somos?</h1>
+			<p class="tamanio-2 sizeMovil"> <b>Melozzy</b> es una tienda de ropa de segunda mano con el objetivo de disminuir la cantidad de ropa que va directo a la basura. Esto hace más largo el ciclo de vida y genera una <b> reducción en el impacto ambiental</b>. El hecho de reutilizar ropa y objetos es un gesto sostenible para el medio ambiente.</p>
+		</div>
+	</div>
+
+    <section id="puntEntrega"  data-aos="fade-left">
+		<h1>Punto de entrega</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6209722926324!2d-64.18168628485171!3d-31.42456738140134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a282861769af%3A0xd31cd18325eecf59!2sRondeau%20548%2C%20X5000AVL%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1616695139076!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+    </section>
+
+	
+	<footer class="container-fluid">
+		<div class="row bg--footer">
+			<div class="col-lg-4 col-xs-12">
+				<img src="../assets/img/logo.jpg" alt="logoFooter" class="logo--footer__ubicacion" width="300px" height="300px">
+			</div>
+			<div class="col-lg-4 col-xs-12 modificacionMovile">
+				<h3>REDES SOCIALES</h3>
+				<a href="#"><img src="../assets/img/iconFace.png" alt="logoFace" class="bloque" width="20px" height="20px"></a>
+				<a href="#"><img src="../assets/img/iconInsta.png" alt="logoInsta" class="bloque" width="20px" height="20px"></a>
+
+			</div>
+			<div class="col-lg-4 col-xs-12 modificacionMovile">
+				<h3>CONTACTO</h3>
+				<div>
+				<img src="../assets/img/iconMail.png" alt="iconoEmail" class="bloque" width="20px" height="20px"><span>melozzyferia@gmail.com</span></div>
+				<img src="../assets/img/iconoMaoa.png" alt="iconoMapa" class="bloque" width="20px" height="20px"><span>Rondeau 548 - Córdoba Capital</span>
+			</div>
+		</div>
+		
+		<div class="row rowSinMargin">
+			<div class="col-lg-12 col-xs-12 bg--copy">
+				<p>Powered by: <a href="#">Capell</a></p>
+			</div>
+		</div>
+    </footer>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
